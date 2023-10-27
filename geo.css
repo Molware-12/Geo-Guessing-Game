@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Soothing background color */
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#game,
+#game2 {
+    display: none;
+    text-align: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+input[type="text"],
+input[type="cText"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc; /* Add border styles */
+    border-radius: 5px;
+    width: 80%; /* Adjust the width as needed */
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Adjust the button color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+img {
+    width: 450px; /* Set the desired width */
+    height: auto; /* This maintains the aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
